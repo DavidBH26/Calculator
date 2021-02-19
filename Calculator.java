@@ -477,7 +477,7 @@ public class Calculator {
         return btn;
     }
 
-    public double calc(double x, String input, char opt, float cantidad) {
+    public double calc(double x, String input, char opt) {
         getInText().setFont(getInText().getFont().deriveFont(Font.PLAIN));
         double y = Double.parseDouble(input);
         switch (opt) {
